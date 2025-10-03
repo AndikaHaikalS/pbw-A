@@ -59,11 +59,3 @@ Pada pertemuan ini, telah berhasil:
 © 2025 – Praktikum PBW | LaraPress Project
 
 
-<img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/72cdd7c4-e9a3-4af0-a22f-6b1fde65b7ba" />
-
-
-<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4698f5e3-cb7a-43d0-8129-52ef4a62f883" />
-
-
-
-<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/7d39557c-4cf1-487a-ba61-23120b4447c4" />
