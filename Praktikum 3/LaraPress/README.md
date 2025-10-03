@@ -1,61 +1,61 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+#  Laporan Praktikum Pemrograman Berbasis Web  
+**Pertemuan 1 dari 10**  
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+##  Identitas
+- **Nama** : Andika Haikal Syahputra  
+- **NPM** : 4523210016  
+- **Nama Dosen** : Adi Wahyu Pribadi, S.Si., M.Kom  
+- **Judul Praktikum** : Instalasi, Konfigurasi, dan Halaman Pertama Kita  
+- **Proyek** : *LaraPress* (Aplikasi Blog Sederhana)  
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+##  Tujuan
+Tujuan dari praktikum ini adalah untuk memahami langkah-langkah awal dalam membangun aplikasi berbasis **Laravel**, meliputi:  
+- Instalasi dan konfigurasi project Laravel.  
+- Menjalankan server development lokal.  
+- Membuat halaman statis menggunakan **Route** dan **View**.  
+- Mengenal siklus request paling dasar pada Laravel.  
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+##  Langkah-Langkah Praktikum
+1. Menginstal proyek Laravel baru dengan menggunakan **Composer**.  
+2. Menjalankan server development lokal dengan perintah:  
+   ```bash
+   php artisan serve
+   ```  
+3. Membuat route di file `web.php` untuk halaman: **Home**, **Tentang**, dan **Kontak**.  
+4. Membuat file view Blade (`.blade.php`) untuk menampilkan halaman statis.  
+5. Menambahkan konten pada masing-masing halaman agar sesuai kebutuhan.  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+##  Hasil Praktikum
+Aplikasi **LaraPress** berhasil dijalankan di server lokal dengan beberapa halaman:  
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+###  Halaman Home
+<img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/72cdd7c4-e9a3-4af0-a22f-6b1fde65b7ba" />
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+###  Halaman Tentang
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4698f5e3-cb7a-43d0-8129-52ef4a62f883" /> 
 
-## Laravel Sponsors
+###  Halaman Kontak
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/7d39557c-4cf1-487a-ba61-23120b4447c4" />
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+##  Kesimpulan & Langkah Selanjutnya
+Pada pertemuan ini, telah berhasil:  
+-  Menginstal proyek Laravel baru dari awal.  
+-  Menjalankan server development lokal.  
+-  Membuat halaman statis dengan Route & View.  
+-  Memahami siklus request paling dasar di Laravel.  
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+**Langkah selanjutnya**: mempelajari **Controller**, **Model**, dan **Database** agar aplikasi dapat lebih **dinamis** dan **interaktif**.  
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+© 2025 – Praktikum PBW | LaraPress Project
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
